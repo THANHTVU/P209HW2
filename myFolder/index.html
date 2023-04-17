@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> myFolder </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        
+        <form id="pizzaOrderForm">
+            <!-- 3 Radio Buttons -->
+            <input type="radio" name="pizzaSize" value="7.00" id="option1">
+            <label for="option1"> SMALL ($7.00) </label> 
+
+            <input type="radio" name="pizzaSize" value="10.00" id="option2">
+            <label for="option2"> MEDIUM ($10.00) </label>
+
+            <input type="radio" name="pizzaSize" value="14.00" id="option3">
+            <label for="option2"> LARGE ($14.00) </label>
+
+            <!-- Topping dropdown feature -->
+            <label for="toppings">Choose your toppings:</label>
+            <select id="toppings" name="toppings">
+                <option value="0"> No toppings ($0.00) </option>
+                <option value="2"> 1 topping ($2.00) </option>
+                <option value="3"> 2 toppings ($3.00)</option>
+            </select>
+
+            <!-- Submit form button -->
+            <button type="submit"> Calculate Price </button>
+
+            <!--  -->
+
+        </form>
+
+        
+        
+        <script src="script.js"></script>
+    </body>
+</html>
